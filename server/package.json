@@ -1,0 +1,27 @@
+{
+  "name": "elmo-test-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon -r tsconfig-paths/register -w .env --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "npm run clean && npm run build && node -r source-map-support/register dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "twitter-lite": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.16.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.12.0",
+    "tslint-config-shopify": "^3.0.2",
+    "typescript": "^3.9.5"
+  }
+}
