@@ -21,3 +21,10 @@ go to the frontend directory and run `yarn start`
 Home page - list the users by search
 
 Profile page - list the user profile and tweets
+
+
+##Todo
+
+CI/CD
+
+More Tests like unit test(Jest) and end to end test (Cypress)

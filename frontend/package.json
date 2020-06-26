@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "cleave.js": "^1.6.0",
+    "cypress": "^4.9.0",
     "date-fns": "^2.14.0",
     "immutable": "^4.0.0-rc.12",
     "lodash": "^4.17.15",
